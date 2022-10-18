@@ -1,0 +1,260 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;     
+    margin: 0;
+}
+
+body { 
+    color: #747474;
+}
+@media (min-width: 768px;)
+    .container{
+        width: 750px;
+    }
+
+@media (min-width: 992px;)
+    .container{
+       width: 970px;
+    }
+ @media (min-width: 1200px;)
+    .container{
+       width: 1170px;
+    }
+                                            /* Header section Start*/
+li, a {
+    text-decoration: none;
+    color: #ababab;
+}
+.about{
+    color: #00b39b;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0px 20%;
+    margin: 0 auto;
+
+}
+.logo {
+    cursor: pointer;
+}
+
+.nav_links{
+    list-style: none;
+   
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+     color: #00b39b;
+}
+                                         /*******Header sectioon END***********/
+
+
+
+
+                                              /*   Dropdown Menu Section Start */
+
+                                              
+li.dropdown{
+    display: inline-block;
+    color: #ababab;
+    position: relative;
+     }
+li.dropdown:hover{
+    color: #00b39b;
+    cursor: pointer;
+    }
+.dropdown-content{
+     display: none;
+     position: absolute;
+    margin-left: -120px;
+     box-shadow: 0px 5px 110px 0px #d3cfc9;
+     min-width: 220px;
+      z-index: 1;
+     background: #fff;
+                                
+ }
+.dropdown-content a {
+     display: block;
+     text-align: left;
+     padding: 12px 12px;
+     width: 100%;
+                                    
+   }
+.dropdown:hover .dropdown-content{
+      display: block;
+  }
+
+                                           /********** dropdown menu Section END **********/
+
+
+.lead{
+    margin: 2.0625rem auto 3.75rem;
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    position: relative;
+}
+img {
+    max-width: 100%;
+    height: auto;  
+} 
+
+.logo_2 {
+    display: block;
+    margin: 0 auto;
+
+}
+h1 {
+    font-size: 2.125rem;
+    color: #00b39b;
+    margin: 1em 0;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.grid {
+    margin: 0 -10px;
+}
+.col-2 {
+    width: 50%;
+}
+[class*=col-] {
+    float: left;
+    min-height: 1px;
+    padding: 10px;
+}
+
+                                          
+
+.services{
+    margin: 3.75rem auto 2.5rem;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.col-3 {
+    width: 33.33%;
+}
+.patient{
+    text-align: left;
+    color: white;
+    
+}
+#pat{
+    text-align: left;
+    color: white;
+
+}
+
+.services__item{
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #00ccb1;
+}
+
+                          /*                FOR DOCTORS START                     */
+
+.services_item {
+    background: #3d83df;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#doc{
+    text-align: left;
+    color: white;
+    margin-top: 12px;
+
+}
+
+                       /*                  FOR DOCTORS END                 */
+
+
+                       /*                  FOR CLINICS START          */
+
+.servicesitem {
+    background: #1b2734;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+#doc{
+    text-align: left;
+    color: white;
+    margin-top: 12px;
+
+}
+
+                           /* FOR CLINICS   END    */
+
+.brands {
+    margin: 2.5rem auto 3.125rem; 
+}
+#comp {
+    float: left;
+    padding-left: 12.5%;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.globalbrands{
+    
+}
+.brands_logos  {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 0;
+    list-style: none;
+    width: 67%;
+    padding-top: 70px;
+    
+}
+
+.brands_logo li a:hover {
+    color: #00b39b;
+}
+
+
+
+                      
+
+
+    
+
+
+
+
